@@ -13,11 +13,11 @@ The following sections contain the June and December temperature summary statist
 
 ### June 
 
-![June_Temperature_Stats](https://myoctocat.com/assets/images/base-octocat.svg)
+![June_Temperature_Stats](https://github.com/saramcel/surfs_up/blob/07bf5e2f45ba3dfdfbabeccdf9211f97eb247359/Resources/June_Temps_Stats.png)
 
 ### December
 
-![December_Temperature_Stats](https://myoctocat.com/assets/images/base-octocat.svg)
+![December_Temperature_Stats](https://github.com/saramcel/surfs_up/blob/07bf5e2f45ba3dfdfbabeccdf9211f97eb247359/Resources/Dec_Temps_Stats.png)
 
 * There are 183 (11%) fewer observations of December temperatures compared to June temperatures. Knowing this, we might view the December statistics as slightly less reliable than the June statistics. 
 * Compared with June, December stats for mean temperature, maximum temperature, and each quartile are all 3-4 degrees less. This indicates that most of the time, the temperatures for each of these seasons is relatively similar. However, there is one exception: the minimum temperature.
@@ -25,7 +25,7 @@ The following sections contain the June and December temperature summary statist
 
 ## Summary
 
-The analysis resulted in promising results. The temperature differences between June and December statistical metrics were not large, with December usually only about 3-4 degrees cooler than June. However, the minimum temperature is noticably cooler in December, so there might be a good reason to come up with a backup plan when the water is too cold to surf in and ice cream will be less popular. The 
+The analysis showed promising results for the surf and ice cream shop. The temperature statistics from June and December did not show large differences, with December usually only about 3-4 degrees cooler than June. However, the minimum temperature is noticably cooler in December, so there might be a good reason to come up with a backup plan when the water is too cold to surf, and ice cream will be less popular. For example, we could also sell coffee and a small selection of sandwiches. 
 
 ### Additional Queries
 
@@ -50,7 +50,7 @@ df3.plot(figsize=(50,20))
 
 ![Query 1 Results](https://myoctocat.com/assets/images/base-octocat.svg)
 
-The dataframe shows that the data goes from 1-1-2010 to 8-23-2017. For that time period, the chart shows the average daily temperature observation. There is seasonal oscillation, but there is also a slight linear trend upward, towards hotter summers. 
+The dataframe shows that the data goes from 1-1-2010 to 8-23-2017. For that time period, the chart shows the average daily temperature observation. There is seasonal oscillation, but there is also a slight linear trend upward, towards hotter summers. The winter temperatures still reach the normal lows even in more recent observations.
 
 * Query 2: The second suggested query is to plot the percipitation to see whether there are more extreme storms due to climate change. 
 
@@ -67,11 +67,11 @@ df4 = df4.sort_index()
 print(df4)
 
 # Use Pandas Plotting with Matplotlib to plot the data
-df4.plot(figsize=(50,10))
+df4.plot(figsize=(40,10))
 ```
 
 * Result of Query 2
 
 ![Query 2 Results](https://myoctocat.com/assets/images/base-octocat.svg)
 
-This long chart has no apparent trends. Every few months there are some extreme precipitation events followed by a short period of dryness, but these extreme amounts of precipitation are not getting worse. 
+This long chart has no apparent trends. Every few months there are some extreme precipitation events followed by a short period of dryness, but these extreme amounts of precipitation do not seem to be getting worse or more frequent over time. 
