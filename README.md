@@ -8,6 +8,29 @@ We are hoping to open a new surf and ice cream shop on the beach in Oahu. First,
 
 The purpose of this weather analysis is to provide information to the investor W. Avy so that he can be confident that our surf supply and ice cream shop will have customers all year long. The temperature analysis from June and December will provide a good contrast for the kind of weather to expectin Oahu, where the shop will be. 
 
+## Results
+The following sections contain the June and Decmeber temperature summary statistics and three key differences between these two months. 
+
+### June 
+
+! image
+
+### December
+
+! image
+
+* point 1
+* point 2
+* point 3
+
+## Summary
+
+### Additional Queries
+
+* Query 1
+
+* Query 2
+
 Deliverable 3 Instructions
 For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
 
