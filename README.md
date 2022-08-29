@@ -48,7 +48,7 @@ df3.plot(figsize=(50,20))
 
 * Result of Query 1
 
-![Query 1 Results](https://myoctocat.com/assets/images/base-octocat.svg)
+![Query 1 Results](https://github.com/saramcel/surfs_up/blob/43d347243a44df37d81a20d6e0b4d88994baf8c3/Resources/Results_Query_1.png)
 
 The dataframe shows that the data goes from 1-1-2010 to 8-23-2017. For that time period, the chart shows the average daily temperature observation. There is seasonal oscillation, but there is also a slight linear trend upward, towards hotter summers. The winter temperatures still reach the normal lows even in more recent observations.
 
@@ -72,6 +72,6 @@ df4.plot(figsize=(40,10))
 
 * Result of Query 2
 
-![Query 2 Results](https://myoctocat.com/assets/images/base-octocat.svg)
+![Query 2 Results](https://github.com/saramcel/surfs_up/blob/43d347243a44df37d81a20d6e0b4d88994baf8c3/Resources/Results_Query_2.png)
 
 This long chart has no apparent trends. Every few months there are some extreme precipitation events followed by a short period of dryness, but these extreme amounts of precipitation do not seem to be getting worse or more frequent over time. 
