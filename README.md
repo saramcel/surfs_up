@@ -26,7 +26,7 @@ Note: There are 183 (11%) fewer observations of December temperatures compared t
 
 ## Summary
 
-The analysis showed promising results for the surf and ice cream shop. The temperature statistics from June and December did not show large differences, with December usually only about 3-4 degrees cooler than June. However, the minimum temperature is noticably cooler in December, so there might be a good reason to come up with a backup plan when the water is too cold to surf, and ice cream will be less popular. For example, we could also sell coffee and a small selection of sandwiches. 
+The analysis showed promising results for the surf and ice cream shop. The temperature statistics from June and December did not show large differences, with December usually only about 3-4 degrees cooler than June. However, the minimum temperature is noticably cooler in December, so there might be a good reason to come up with a backup plan when the water is too cold to surf, and ice cream will be less popular. For example, we could also sell coffee and sandwiches. 
 
 ### Additional Queries
 
