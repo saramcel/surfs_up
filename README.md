@@ -29,34 +29,49 @@ The analysis resulted in promising results. The temperature differences between 
 
 ### Additional Queries
 
-* Query 1
+* Query 1: The first suggested query is to plot all of the daily temperatures to examine whether there are trends due to climate change. 
 
-* Query 2
+```
+# Suggestion 1: putting the temps in order and plotting trends
+results3 = session.query(Measurement.date, func.avg(Measurement.tobs)).\
+group_by(Measurement.date).order_by(Measurement.date).all()
 
-Deliverable 3 Instructions
-For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
+df3 = pd.DataFrame(results3, columns=['date','tobs'])
+# Sort the dataframe by date
+df3.set_index(df3['date'], inplace=True)
+df3 = df3.sort_index()
+print(df3)
 
-The analysis should contain the following:
+# Use Pandas Plotting with Matplotlib to plot the data
+df3.plot(figsize=(50,20))
+```
 
-Overview of the analysis: Explain the purpose of this analysis.
-Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
-Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
+* Result of Query 1
 
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
+![Query 1 Results](https://myoctocat.com/assets/images/base-octocat.svg)
 
-Overview of the statistical analysis:
+The dataframe shows that the data goes from 1-1-2010 to 8-23-2017. For that time period, the chart shows the average daily temperature observation. There is seasonal oscillation, but there is also a slight linear trend upward, towards hotter summers. 
 
-The purpose of the analysis is well defined. (3 pt)
-Results:
+* Query 2: The second suggested query is to plot the percipitation to see whether there are more extreme storms due to climate change. 
 
-There is a bulleted list that addresses the three key differences in weather between June and December. (6 pt)
-Summary:
+```
+# Suggestion 2: Plotting precipitation trends
+results4 = session.query(Measurement.date, func.max(Measurement.prcp)).\
+group_by(Measurement.date).order_by(Measurement.date).all()
 
-There is a high-level summary of the results and there are two additional queries to perform to gather more weather data for June and December. (5 pt)
+
+df4 = pd.DataFrame(results4, columns=['date','prcp'])
+# Sort the dataframe by date
+df4.set_index(df4['date'], inplace=True)
+df4 = df4.sort_index()
+print(df4)
+
+# Use Pandas Plotting with Matplotlib to plot the data
+df4.plot(figsize=(50,10))
+```
+
+* Result of Query 2
+
+![Query 2 Results](https://myoctocat.com/assets/images/base-octocat.svg)
+
+This long chart has no apparent trends. Every few months there are some extreme precipitation events followed by a short period of dryness, but these extreme amounts of precipitation are not getting worse. 
