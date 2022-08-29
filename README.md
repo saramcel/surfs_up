@@ -2,28 +2,30 @@
 
 ## Overview
 
-We are hoping to open a new surf and ice cream shop on the beach in Oahu. First, our investor W. Avy is interested in a weather analysis to make sure that we are going to have enough demand. 
+We are hoping to open a new surf and ice cream shop on the beach in Oahu. First, our investor W. Avy is interested in a weather analysis to make sure that we are going to have enough demand (e.g. ensure that enough visitors will be on the island enjoying outdoor activities). 
 
 ### Purpose
 
 The purpose of this weather analysis is to provide information to the investor W. Avy so that he can be confident that our surf supply and ice cream shop will have customers all year long. The temperature analysis from June and December will provide a good contrast for the kind of weather to expectin Oahu, where the shop will be. 
 
 ## Results
-The following sections contain the June and Decmeber temperature summary statistics and three key differences between these two months. 
+The following sections contain the June and December temperature summary statistics and three key differences between these two months. 
 
 ### June 
 
-! image
+![June_Temperature_Stats](https://myoctocat.com/assets/images/base-octocat.svg)
 
 ### December
 
-! image
+![December_Temperature_Stats](https://myoctocat.com/assets/images/base-octocat.svg)
 
-* point 1
-* point 2
-* point 3
+* There are 183 (11%) fewer observations of December temperatures compared to June temperatures. Knowing this, we might view the December statistics as slightly less reliable than the June statistics. 
+* Compared with June, December stats for mean temperature, maximum temperature, and each quartile are all 3-4 degrees less. This indicates that most of the time, the temperatures for each of these seasons is relatively similar. However, there is one exception: the minimum temperature.
+* The minimum temperature for June 2010 to June 2017 is 64 degrees Fahrenheit. The minimum temperature for December 2010 to December 2016 is 56 degrees Fahrenheit. Although this is only an 8 degree difference, it indicates that it is possible for December to be noticeably cooler than June in Oahu. 
 
 ## Summary
+
+The analysis resulted in promising results. The temperature differences between June and December statistical metrics were not large, with December usually only about 3-4 degrees cooler than June. However, the minimum temperature is noticably cooler in December, so there might be a good reason to come up with a backup plan when the water is too cold to surf in and ice cream will be less popular. The 
 
 ### Additional Queries
 
