@@ -6,7 +6,7 @@ We are hoping to open a new surf and ice cream shop on the beach in Oahu. First,
 
 ### Purpose
 
-The purpose of this weather analysis is to provide information to the investor W. Avy so that he can be confident that our surf supply and ice cream shop will have customers all year long. The temperature analysis from June and December will provide a good contrast for the kind of weather to expectin Oahu, where the shop will be. 
+The purpose of this weather analysis is to provide information to the investor W. Avy so that he can be confident that our surf supply and ice cream shop will have customers all year long. The temperature analysis from June and December will provide a good contrast for the kind of weather typical to Oahu. 
 
 ## Results
 The following sections contain the June and December temperature summary statistics and three key differences between these two months. 
