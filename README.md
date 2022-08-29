@@ -74,4 +74,4 @@ df4.plot(figsize=(40,10))
 
 ![Query 2 Results](https://github.com/saramcel/surfs_up/blob/43d347243a44df37d81a20d6e0b4d88994baf8c3/Resources/Results_Query_2.png)
 
-This long chart has no apparent trends. Every few months there are some extreme precipitation events followed by a short period of dryness, but these extreme amounts of precipitation do not seem to be getting worse or more frequent over time. 
+This long chart has no apparent trends. Every few months there are some extreme precipitation events followed by a short period of dryness, but these extreme amounts of precipitation do not seem to be getting obviously worse or more frequent over time.
