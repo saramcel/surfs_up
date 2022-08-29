@@ -1,5 +1,12 @@
 # Surf's Up
 
+## Overview
+
+We are hoping to open a new surf and ice cream shop on the beach in Oahu. First, our investor W. Avy is interested in a weather analysis to make sure that we are going to have enough demand. 
+
+### Purpose
+
+The purpose of this weather analysis is to provide information to the investor W. Avy so that he can be confident that our surf supply and ice cream shop will have customers all year long. The temperature analysis from June and December will provide a good contrast for the kind of weather to expectin Oahu, where the shop will be. 
 
 Deliverable 3 Instructions
 For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
