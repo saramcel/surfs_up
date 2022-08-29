@@ -19,9 +19,10 @@ The following sections contain the June and December temperature summary statist
 
 ![December_Temperature_Stats](https://github.com/saramcel/surfs_up/blob/07bf5e2f45ba3dfdfbabeccdf9211f97eb247359/Resources/Dec_Temps_Stats.png)
 
-* There are 183 (11%) fewer observations of December temperatures compared to June temperatures. Knowing this, we might view the December statistics as slightly less reliable than the June statistics. 
-* Compared with June, December stats for mean temperature, maximum temperature, and each quartile are all 3-4 degrees less. This indicates that most of the time, the temperatures for each of these seasons is relatively similar. However, there is one exception: the minimum temperature.
-* The minimum temperature for June 2010 to June 2017 is 64 degrees Fahrenheit. The minimum temperature for December 2010 to December 2016 is 56 degrees Fahrenheit. Although this is only an 8 degree difference, it indicates that it is possible for December to be noticeably cooler than June in Oahu. 
+Note: There are 183 (11%) fewer observations of December temperatures compared to June temperatures. Knowing this, we might view the December statistics as slightly less reliable than the June statistics. 
+* The standard deviation of temperatures in December is slightly higher than the standard deviation in June, implying that there is a greater amount of temperature variation from the mean in the winter.
+* Compared with June, December statistics are all 3-4 degrees less for mean temperature, maximum temperature, and each quartile. This indicates that most of the time, the temperatures for each of these seasons is relatively similar. 
+* However, there is one exception: the minimum temperature. The minimum temperature for June is 64 degrees Fahrenheit. The minimum temperature for December is 56 degrees Fahrenheit. Although this is only an 8 degree difference, it indicates that it is possible for December to be noticeably cooler than June in Oahu. 
 
 ## Summary
 
@@ -50,7 +51,7 @@ df3.plot(figsize=(50,20))
 
 ![Query 1 Results](https://github.com/saramcel/surfs_up/blob/43d347243a44df37d81a20d6e0b4d88994baf8c3/Resources/Results_Query_1.png)
 
-The dataframe shows that the data goes from 1-1-2010 to 8-23-2017. For that time period, the chart shows the average daily temperature observation. There is seasonal oscillation, but there is also a slight linear trend upward, towards hotter summers. The winter temperatures still reach the normal lows even in more recent observations.
+The dataframe shows that the data goes from 1-1-2010 to 8-23-2017. For that time period, the chart shows the average daily temperature observation. There is seasonal oscillation, but there is also a slight linear trend upward, towards hotter summers. The winter temperatures still reach the normal lows even in more recent observations, and winter temperatures show a greater range.
 
 * Query 2: The second suggested query is to plot the percipitation to see whether there are more extreme storms due to climate change. 
 
